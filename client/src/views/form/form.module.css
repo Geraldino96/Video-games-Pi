@@ -1,0 +1,120 @@
+.form {
+    background: url("https://media.giphy.com/media/ZSwUSxuRWXrpkAssv0/giphy.gif");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 5px;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center center;
+    align-items: center;
+    width: 500px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(7, 3, 255, 0.182);
+    color: rgb(134, 158, 14);
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+             1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+.formContainer h1{
+    text-shadow: 2px 2px 1px #0e1d5a;
+    background-color: rgb(108, 24, 24);
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.formContainer h5{
+    color: rgb(253, 4, 4);
+    /* text-shadow: 2px 2px 2px #0e1d5a; */
+    padding: 0px;
+    margin-top: 0%;
+}
+
+
+.formContainer label{
+    margin: 10px;
+    padding: 0;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.formContainer input{
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    font-family: Arial;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: rgb(67, 3, 3);
+}
+
+.formContainer select{
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    font-family: Arial;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: rgb(104, 7, 7);
+}
+
+#formCreate{
+    background-color: rgba(6, 0, 7, 0.7); 
+    padding: 12px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    
+    color: rgb(253, 251, 253);
+    font-weight: bold;
+    font-size: 17px;
+    text-shadow: 2px 2px 1px #580510;
+    font-family: Arial;
+    text-decoration: none;
+}
+#formCreate:hover {
+    background-color: rgba(102, 0, 122, 70%);
+    box-shadow: 6px 5px 24px #666666;
+    transition-delay: 0.2s;
+    transition: 0.8s;
+}
+
+#return{
+    background-color: rgba(246, 233, 248, 0.6);
+    padding: 12px;
+    border-radius: 10px;
+    border-style: none;
+    position: absolute;
+    top: 40px; right: 80px;
+    cursor: pointer;
+    
+    color: rgb(102, 0, 122);
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px 1px #dfe4f8;
+    font-family: Arial;
+    text-decoration: none;
+}
+#return:hover {
+    background-color: rgba(102, 0, 122, 60%);
+    color: antiquewhite;
+    text-shadow: 2px 2px 1px #0e1d5a;
+    box-shadow: 6px 5px 24px #666666;
+    transition-delay: 0.2s;
+    transition: 0.8s;
+}

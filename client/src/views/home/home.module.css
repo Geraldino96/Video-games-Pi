@@ -1,0 +1,71 @@
+.backgroundHome{
+    background-image: url("https://media.giphy.com/media/Geq04yyjoiGOdq36y3/giphy.gif");
+    height: auto;
+    width: 100%;
+    background-attachment: fixed;   
+    background-size: cover;
+    background-position: center center;
+}
+.backgroundHome label{
+    color: aliceblue;
+}
+
+#buttonHome{
+    background-color: rgba(46, 2, 2, 0.827);
+    padding: 12px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    color: rgb(253, 251, 253);
+    font-weight: bold;
+    font-size: 17px;
+    text-shadow: 2px 2px 1px #0e1d5a;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+#buttonHome:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 6px 5px 24px #3a0202;
+    transition-delay: 0.2s;
+    transition: 0.8s;
+}
+
+.filtrosHome{
+    padding: 12px;
+}
+
+.filtrosHome h3{
+    margin: auto;
+    padding-bottom: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    /* text-shadow: 2px 2px 1px #ffffff; */
+    font-family: Arial;
+}
+
+.filtrosHome select{
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Arial;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.cardContainerHome{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: black;
+    margin-top: 50px;
+}
+
+.loading{
+    width: 400px;
+    height: auto;
+    margin: 35px;
+    align-items: center;
+}

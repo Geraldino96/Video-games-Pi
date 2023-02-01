@@ -1,9 +1,8 @@
 const {Router} = require('express');
+const { getGenresHandler} = require("../handlers/GenresHandler")
 
 const getGenres = Router();
 
-getGenres.get("/", (req, res) => {
-    res.send("Estoy en genres!")
-})
+getGenres.get("/", getGenresHandler);
 
 module.exports = getGenres;
